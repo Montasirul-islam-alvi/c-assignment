@@ -1,0 +1,21 @@
+#include<iostream>
+#include<string>
+using namespace std;
+class student{
+private:
+    int roll_no;
+    string name;
+public:
+     student(int a,string b){
+        roll_no = a;
+        name = b;
+    }
+    void show(){
+        cout<<roll_no<<" "<<name<<endl;
+    }
+};
+int main()
+{
+   student alvi(2,"jamshed");
+   alvi.show();
+}
